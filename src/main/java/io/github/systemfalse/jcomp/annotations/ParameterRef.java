@@ -5,7 +5,7 @@ import java.lang.annotation.*;
 /**
  * Configures parameter usage in component actions.
  */
-@Retention(RetentionPolicy.CLASS)
+@Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.PARAMETER, ElementType.TYPE_PARAMETER})
 @Documented
 public @interface ParameterRef {

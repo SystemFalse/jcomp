@@ -9,7 +9,7 @@ import java.lang.annotation.*;
  * presets.
  * </p>
  */
-@Retention(RetentionPolicy.CLASS)
+@Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 @Documented
 public @interface ActionRef {

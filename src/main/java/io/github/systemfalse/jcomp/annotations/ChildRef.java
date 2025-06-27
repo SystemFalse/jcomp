@@ -6,7 +6,7 @@ import java.lang.annotation.*;
  * Indicates that field is component child. Annotated field have type
  * of {@link io.github.systemfalse.jcomp.Component} or any of its subtypes.
  */
-@Retention(RetentionPolicy.CLASS)
+@Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD, ElementType.RECORD_COMPONENT})
 @Documented
 public @interface ChildRef {

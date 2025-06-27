@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * Indicates that a field is component property. THe initial value
  * of property will be the same as the value of the field.
  */
-@Retention(RetentionPolicy.CLASS)
+@Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD, ElementType.RECORD_COMPONENT})
 public @interface PropertyRef {
 

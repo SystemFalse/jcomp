@@ -8,7 +8,7 @@ import java.lang.annotation.*;
  * To define property of the component, use {@link PropertyRef} annotation.
  * To define action of the component, use {@link ActionRef} annotation.
  */
-@Retention(RetentionPolicy.CLASS)
+@Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 @Inherited
 @Documented

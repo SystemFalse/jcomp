@@ -4,4 +4,5 @@ module jcomp {
 
     exports io.github.systemfalse.jcomp;
     exports io.github.systemfalse.jcomp.builders;
+    exports io.github.systemfalse.jcomp.annotations;
 }
